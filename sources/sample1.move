@@ -1,4 +1,4 @@
-module net2dev_addr::Sample1 {
+module trah_addr::Sample1 {
     use std::debug;
     use std::string::{String, utf8};
 
@@ -15,7 +15,7 @@ module net2dev_addr::Sample1 {
         ID
     }
 
-    #[test]
+    //#[test]
     fun test_function() {
         let id_value: u64 = set_value();
         debug::print(&id_value);

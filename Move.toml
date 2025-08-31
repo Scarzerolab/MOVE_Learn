@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-net2dev_addr = "07aa80adb8dea7204773f98903f4376552deee32bfe19e5779f6f212449512bb"
+trah_addr = "07aa80adb8dea7204773f98903f4376552deee32bfe19e5779f6f212449512bb"
 
 [dev-addresses]
 
