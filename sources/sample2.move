@@ -1,6 +1,4 @@
 module trah_addr::sample2 {
-    use std::debug::print;
-
     const My_addr: address = @trah_addr;
 
     fun confirm_value(choice: bool): (u64, bool){
@@ -11,10 +9,13 @@ module trah_addr::sample2 {
     }
     //expected return (1, true)
 
-    #[test]
-    fun test_function(){
-        let (number, choice) = confirm_value(true);
-        print(&number);
-        print(&choice);
-    }
+    // #[test_only]
+    // //use std::debug::print;
+
+    // //#[test]
+    // fun test_function(){
+    //     let (number, choice) = confirm_value(true);
+    //     print(&number);
+    //     print(&choice);
+    // }
 }
