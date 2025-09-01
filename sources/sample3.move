@@ -15,30 +15,30 @@ address trah_addr {
     }
 
     module two {
-        #[test_only]
-        use std::debug::print;
-        #[test_only]
-        use trah_addr::one::get_value;
+        // #[test_only]
+        // use std::debug::print;
+        // #[test_only]
+        // use trah_addr::one::get_value;
         
-        #[test]
-        fun test_function(){
-            //use trah_addr::one::get_value;
-            let result: u64 = get_value();
-            print(&result)
-        }
+        // #[test]
+        // fun test_function(){
+        //     //use trah_addr::one::get_value;
+        //     let result: u64 = get_value();
+        //     print(&result)
+        // }
     }
 
     module three {
-        #[test_only]
-        use std::debug::print;
-        #[test_only]
-        use trah_addr::one::get_value;
+        // #[test_only]
+        // use std::debug::print;
+        // #[test_only]
+        // use trah_addr::one::get_value;
         
-        #[test]
-        fun test_function(){
-            //use trah_addr::one::get_value;
-            let result: u64 = get_value();
-            print(&result)
-        }
+        // #[test]
+        // fun test_function(){
+        //     //use trah_addr::one::get_value;
+        //     let result: u64 = get_value();
+        //     print(&result)
+        // }
     }
 }
