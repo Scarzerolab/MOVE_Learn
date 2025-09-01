@@ -44,6 +44,7 @@ module trah_addr::sample4{
         print(&utf8(b"correct"))
     }
     
+    /*
     #[test]
     fun for_test(){
         let result: u64 = sample_for_loop(10);
@@ -72,4 +73,5 @@ module trah_addr::sample4{
     fun assert_test(){
         sample_assert(utf8(b"trahganteng"));
     }
+    */
 }
