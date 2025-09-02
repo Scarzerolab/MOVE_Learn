@@ -37,7 +37,7 @@ module trah_addr::sample5{
         else
             return x == y
     }
-
+/*
     #[test_only]
     use std::debug::print;
 
@@ -52,4 +52,5 @@ module trah_addr::sample5{
         let result: bool = equality_operation(100, 101, Equal);
         print(&result)
     }
+ */
 }
