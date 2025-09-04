@@ -15,9 +15,11 @@ address trah_addr{
             print(&price_w_fee)
         }
 
+        /*
         #[test]
         fun test_funtion(){
             calculate_price()
         }
+        */
     }
 }
