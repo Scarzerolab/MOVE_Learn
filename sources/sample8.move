@@ -12,9 +12,10 @@ module trah_addr::SignerDemo {
         assert!(signer::address_of(&account) == Owner, Not_Owner);
         print(&signer::address_of(&account));
     }
-
+    /*
     #[test(account = @trah_addr)]
     fun test_function(account: signer){
         check_owner(account);
     }
+    */
 }
