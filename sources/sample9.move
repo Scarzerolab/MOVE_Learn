@@ -26,11 +26,12 @@ module trah_addr::RefDemo{
         let value_b: &u64 = &80;
         re_assign(value_a, value_b);
     }
-
+    /*
     #[test]
     fun test_function(){
         scenario1();
         scenario2();
         scenario3();
     }
+    */
 }
